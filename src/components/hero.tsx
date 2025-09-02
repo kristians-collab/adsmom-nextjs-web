@@ -62,6 +62,7 @@ export default function Hero() {
             <Button
               size="lg"
               className="bg-adsmom-primary hover:bg-green-600 text-white px-8 py-3 text-base font-medium"
+              onClick={() => window.open('https://app.adsmom.com/auth/signup', '_blank')}
             >
               Try Freemium
             </Button>
@@ -69,6 +70,12 @@ export default function Hero() {
               variant="outline"
               size="lg"
               className="border-gray-300 text-gray-700 px-8 py-3 text-base font-medium"
+              onClick={() => {
+                const element = document.getElementById('competitor-strategy');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
             >
               Book a Demo
             </Button>

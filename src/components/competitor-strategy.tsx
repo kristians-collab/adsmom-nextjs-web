@@ -25,7 +25,7 @@ export function CompetitorStrategy() {
   };
 
   return (
-    <section className="bg-black py-24 relative" data-testid="section-competitor-strategy">
+    <section id="competitor-strategy" className="bg-black py-24 relative" data-testid="section-competitor-strategy">
       {/* Subtle grid background */}
       <div className="absolute inset-0 opacity-[0.03]" 
            style={{

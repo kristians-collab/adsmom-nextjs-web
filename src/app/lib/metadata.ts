@@ -2,15 +2,21 @@ import type { Metadata } from 'next';
 
 export const siteConfig = {
   name: 'Adsmom',
-  description: 'Your website description goes here',
-  url: 'https://yourdomain.com', // Replace with your actual domain
-  ogImage: '/og-image.jpg',
-  creator: '@yourusername', // Replace with your social handle
+  description: 'The competitive ad intelligence platform that turns insights into revenue. Monitor, analyze, and optimize your advertising strategy with real performance data from 200 million ads.',
+  url: 'https://adsmom.com', // Replace with your actual domain
+  ogImage: '/assets/Screenshot 2025-08-28 at 18.37.48_1756395476464.png',
+  creator: '@adsmom', // Replace with your social handle
   keywords: [
-    'keyword1',
-    'keyword2',
-    'keyword3',
-    // Add your relevant keywords
+    'ad intelligence',
+    'competitive advertising',
+    'ad analytics',
+    'advertising insights',
+    'competitor analysis',
+    'digital marketing',
+    'ad performance',
+    'marketing intelligence',
+    'advertising strategy',
+    'ad monitoring',
   ],
 };
 
